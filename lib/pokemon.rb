@@ -14,3 +14,4 @@ def self.find(id,db)
   new = Pokemon.new(pokemon)
 
 end
+end 
