@@ -14,7 +14,7 @@ def self.find(number,db)
   new = Pokemon.new(pokemon)
   new.id = pokemon[0][0]
   new.name = pokemon[0][1]
-  new.type = [0][2]
+  new.type = pokemon[0][2]
   return new
 end
 end 
