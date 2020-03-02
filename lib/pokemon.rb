@@ -9,4 +9,6 @@ def self.save(name,type,db)
   VALUES (?,?)",name,type)
 end 
 
+def self.find
+
 end
