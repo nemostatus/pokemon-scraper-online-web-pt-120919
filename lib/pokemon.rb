@@ -7,10 +7,10 @@ end
 def self.save(name,type,db)
   
 
-  INSERT INTO pokemon (name,type)
-  VALUES (?,?)
  
-DB[:conn].execute(sql,self.name,self.type)
+ 
+DB[:conn].execute(" INSERT INTO pokemon (name,type)
+  VALUES (?,?)")
 end 
 
 end
