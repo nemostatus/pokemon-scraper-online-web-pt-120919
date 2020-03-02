@@ -9,7 +9,7 @@ def save
   INSERT INTO pokemon (name,type)
   VALUES (?,?)
   SQL
-DB[:conn].execute
+DB[:conn].execute(sql)
 end 
 
 end
