@@ -6,7 +6,7 @@ end
 
 def save 
   sql = <<-SQL 
-  INSERT INTO
+  INSERT INTO 
 end 
 
 end
