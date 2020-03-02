@@ -9,6 +9,7 @@ def save
   INSERT INTO pokemon (name,type)
   VALUES (?,?)
   SQL
+
 end 
 
 end
