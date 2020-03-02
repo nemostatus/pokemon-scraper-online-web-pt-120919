@@ -9,7 +9,7 @@ def self.save(name,type,db)
   VALUES (?,?)",name,type)
 end 
 
-def self.find(id)
-  pokemon = "SELECT "
+def self.find(id,db)
+  pokemon = db.execute("SELECT * FROM pokemon WHERE id = ? "
 
 end
