@@ -13,6 +13,7 @@ def self.find(number,db)
   pokemon = db.execute("SELECT * FROM pokemon WHERE id = ? ",number)
   new = Pokemon.new(pokemon)
   new.id = pokemon[0][0]
+  new.name = pokemon[0][1]
 return new
 end
 end 
