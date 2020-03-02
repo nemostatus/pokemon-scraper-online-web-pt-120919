@@ -4,4 +4,8 @@ class Pokemon
 
 end
 
+def save 
+  
+end 
+
 end
