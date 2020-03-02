@@ -6,7 +6,7 @@ end
 
 def save 
   sql = <<-SQL 
-  INSERT INTO pokemon
+  INSERT INTO pokemon VALUES
 end 
 
 end
